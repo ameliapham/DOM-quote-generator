@@ -14,6 +14,7 @@ body {
 }
 
 #main-heading {
+    width: 300px;
     background-color: black;
     padding: 10px 20px 10px 20px;
     border: 1px solid;
@@ -22,7 +23,7 @@ body {
 }
 
 .quote-box {
-    height: fit-content;
+    height: 150px;
     width: 300px;
     background-color: bisque;
     color: black;
@@ -37,12 +38,6 @@ body {
     margin-bottom: 10px;
 }
 
-.button {
-    background-color: burlywood;
-    padding: 10px 20px 10px 20px;
-    border-radius: 5px;
-}
-
 .quote {
     font-style: italic;
     font-weight: 300;
@@ -50,4 +45,14 @@ body {
 
 .author {
     font-style: normal;
+    text-transform: uppercase;
+    color: brown;
 }
+
+.button {
+    background-color: burlywood;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+
