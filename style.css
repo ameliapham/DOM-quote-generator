@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Geist', sans-serif;
-    background-image: url('/models/library.jpeg');
+    background: url('/models/background.jpeg') center center/cover;
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -13,3 +13,41 @@ body {
     color: beige;
 }
 
+#main-heading {
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.quote-box {
+    height: fit-content;
+    width: 300px;
+    background-color: bisque;
+    color: black;
+    margin-top: 30px;
+    padding: 30px 20px 30px 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px black ;
+    text-align: center;
+}
+
+.quote-box p {
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: burlywood;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    font-style: normal;
+}
