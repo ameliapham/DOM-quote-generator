@@ -30,3 +30,16 @@ btn.addEventListener('click', () => {
     quote.innerText = quotes[random].quote
     author.innerText= quotes[random].author
 })
+
+const changeColor = (e) => {
+    e.target.style.backgroundColor = '#6c3e06'
+    e.target.style.color = '#ffe4c4'
+}
+
+const revertColor = (e) => {
+    e.target.style.backgroundColor = ''
+    e.target.style.color = ''
+}
+
+btn.addEventListener('mouseover', changeColor)
+btn.addEventListener('mouseout', revertColor)
