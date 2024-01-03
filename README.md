@@ -1,1 +1,1 @@
-# DOM-random-quote-projet
+# DOM-quote-generator
