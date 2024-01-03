@@ -1,3 +1,5 @@
+import './style.css';
+
 let btn = document.querySelector('.button')
 let quote = document.querySelector('.quote')
 let author = document.querySelector('.author')
