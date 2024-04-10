@@ -1,2 +1,3 @@
 # DOM-quote-generator
-Link of project: https://dom-quote-generator.vercel.app/
+
+For a live experience, visit my [online demo](https://dom-quote-generator.vercel.app/).
